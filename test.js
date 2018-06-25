@@ -36,6 +36,14 @@ function solution(S) {
     }
 }
 
+const getBMI = (weight, height) => {
+    return weight / (height * height)
+}
+
+let rajeshWeight = 69 // kg
+let rajeshHeight = 1.67
+console.log(getBMI(rajeshWeight, rajeshHeight));
+
 // function solution() {     var dataCount =
 // $('.comment-list').attr('data-count');     $.ajax({         url:
 // 'https://www.example.com/comments?count=2' + dataCount,         dataType:

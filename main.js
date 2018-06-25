@@ -8,6 +8,7 @@ function makePassword(str) {
     .replace(/o|O/g, 0)
     .replace(/s|S/g, 5);
 }
+
 console.log(makePassword("Hello Rajesh Jella welcome"));
 
 const MY_OBJECT = {
